@@ -1,0 +1,137 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\obj\\Debug\\net7.0\\compressed\\i6rttuir4z.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DxWebUI.styles.css",
+      "PackagePath": "staticwebassets\\DxWebUI.styles.css"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\browserNotSupported.html",
+      "PackagePath": "staticwebassets\\browserNotSupported.html"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\css\\bootstrap\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\css\\open.iconic\\FONT-LICENSE.txt",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\FONT-LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\css\\open.iconic\\ICON-LICENSE.txt",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\ICON-LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\css\\open.iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\README.md"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\css\\open.iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\images\\E.png",
+      "PackagePath": "staticwebassets\\images\\E.png"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\images\\H.png",
+      "PackagePath": "staticwebassets\\images\\H.png"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\images\\Remove\\Remove.ico",
+      "PackagePath": "staticwebassets\\images\\Remove\\Remove.ico"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\images\\Remove\\Remove_24x24.png",
+      "PackagePath": "staticwebassets\\images\\Remove\\Remove_24x24.png"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\images\\Remove\\Remove_256x256.png",
+      "PackagePath": "staticwebassets\\images\\Remove\\Remove_256x256.png"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\images\\Remove\\Remove_32x32.png",
+      "PackagePath": "staticwebassets\\images\\Remove\\Remove_32x32.png"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\images\\Remove\\Remove_48x48.png",
+      "PackagePath": "staticwebassets\\images\\Remove\\Remove_48x48.png"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\images\\Remove\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\Remove\\Thumbs.db"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\images\\banner.png",
+      "PackagePath": "staticwebassets\\images\\banner.png"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\images\\sad.svg",
+      "PackagePath": "staticwebassets\\images\\sad.svg"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\Tekliftek\\Backend\\Sobis Tekliftek\\DxWebUI\\wwwroot\\sample_data\\weather.json",
+      "PackagePath": "staticwebassets\\sample_data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DxWebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DxWebUI.props",
+      "PackagePath": "build\\DxWebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DxWebUI.props",
+      "PackagePath": "buildMultiTargeting\\DxWebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DxWebUI.props",
+      "PackagePath": "buildTransitive\\DxWebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

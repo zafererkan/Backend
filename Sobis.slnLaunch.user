@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "Sobis.WebAPI\\Sobis.WebAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "DxWebUI\\DxWebUI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

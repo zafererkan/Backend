@@ -1,0 +1,5 @@
+﻿EntityFrameworkCore\add-migration mig7-fix6 -context OraDbContext
+
+EntityFrameworkCore\update-database -context OraDbContext
+
+EntityFrameworkCore\remove-migration -context OraDbContext

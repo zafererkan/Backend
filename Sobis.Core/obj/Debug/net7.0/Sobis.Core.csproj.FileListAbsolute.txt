@@ -1,0 +1,57 @@
+D:\Chat\Sobis\Sobis.Core\bin\Debug\net7.0\Sobis.Core.deps.json
+D:\Chat\Sobis\Sobis.Core\bin\Debug\net7.0\Sobis.Core.runtimeconfig.json
+D:\Chat\Sobis\Sobis.Core\bin\Debug\net7.0\Sobis.Core.dll
+D:\Chat\Sobis\Sobis.Core\bin\Debug\net7.0\Sobis.Core.pdb
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net7.0\Sobis.Core.csproj.AssemblyReference.cache
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net7.0\Sobis.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net7.0\Sobis.Core.AssemblyInfoInputs.cache
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net7.0\Sobis.Core.AssemblyInfo.cs
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net7.0\Sobis.Core.csproj.CoreCompileInputs.cache
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net7.0\Sobis.Core.dll
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net7.0\refint\Sobis.Core.dll
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net7.0\Sobis.Core.pdb
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net7.0\Sobis.Core.genruntimeconfig.cache
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net7.0\ref\Sobis.Core.dll
+D:\SobisPersonel\Sobis.Core\bin\Debug\net7.0\Sobis.Core.deps.json
+D:\SobisPersonel\Sobis.Core\bin\Debug\net7.0\Sobis.Core.runtimeconfig.json
+D:\SobisPersonel\Sobis.Core\bin\Debug\net7.0\Sobis.Core.dll
+D:\SobisPersonel\Sobis.Core\bin\Debug\net7.0\Sobis.Core.pdb
+D:\SobisPersonel\Sobis.Core\obj\Debug\net7.0\Sobis.Core.csproj.AssemblyReference.cache
+D:\SobisPersonel\Sobis.Core\obj\Debug\net7.0\Sobis.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\SobisPersonel\Sobis.Core\obj\Debug\net7.0\Sobis.Core.AssemblyInfoInputs.cache
+D:\SobisPersonel\Sobis.Core\obj\Debug\net7.0\Sobis.Core.AssemblyInfo.cs
+D:\SobisPersonel\Sobis.Core\obj\Debug\net7.0\Sobis.Core.csproj.CoreCompileInputs.cache
+D:\SobisPersonel\Sobis.Core\obj\Debug\net7.0\Sobis.Core.sourcelink.json
+D:\SobisPersonel\Sobis.Core\obj\Debug\net7.0\Sobis.Core.dll
+D:\SobisPersonel\Sobis.Core\obj\Debug\net7.0\refint\Sobis.Core.dll
+D:\SobisPersonel\Sobis.Core\obj\Debug\net7.0\Sobis.Core.pdb
+D:\SobisPersonel\Sobis.Core\obj\Debug\net7.0\Sobis.Core.genruntimeconfig.cache
+D:\SobisPersonel\Sobis.Core\obj\Debug\net7.0\ref\Sobis.Core.dll
+G:\SobisOrj\Sobis.Core\bin\Debug\net7.0\Sobis.Core.deps.json
+G:\SobisOrj\Sobis.Core\bin\Debug\net7.0\Sobis.Core.runtimeconfig.json
+G:\SobisOrj\Sobis.Core\bin\Debug\net7.0\Sobis.Core.dll
+G:\SobisOrj\Sobis.Core\bin\Debug\net7.0\Sobis.Core.pdb
+G:\SobisOrj\Sobis.Core\obj\Debug\net7.0\Sobis.Core.csproj.AssemblyReference.cache
+G:\SobisOrj\Sobis.Core\obj\Debug\net7.0\Sobis.Core.GeneratedMSBuildEditorConfig.editorconfig
+G:\SobisOrj\Sobis.Core\obj\Debug\net7.0\Sobis.Core.AssemblyInfoInputs.cache
+G:\SobisOrj\Sobis.Core\obj\Debug\net7.0\Sobis.Core.AssemblyInfo.cs
+G:\SobisOrj\Sobis.Core\obj\Debug\net7.0\Sobis.Core.csproj.CoreCompileInputs.cache
+G:\SobisOrj\Sobis.Core\obj\Debug\net7.0\Sobis.Core.dll
+G:\SobisOrj\Sobis.Core\obj\Debug\net7.0\refint\Sobis.Core.dll
+G:\SobisOrj\Sobis.Core\obj\Debug\net7.0\Sobis.Core.pdb
+G:\SobisOrj\Sobis.Core\obj\Debug\net7.0\Sobis.Core.genruntimeconfig.cache
+G:\SobisOrj\Sobis.Core\obj\Debug\net7.0\ref\Sobis.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\bin\Debug\net7.0\Sobis.Core.deps.json
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\bin\Debug\net7.0\Sobis.Core.runtimeconfig.json
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\bin\Debug\net7.0\Sobis.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\bin\Debug\net7.0\Sobis.Core.pdb
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\obj\Debug\net7.0\Sobis.Core.csproj.AssemblyReference.cache
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\obj\Debug\net7.0\Sobis.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\obj\Debug\net7.0\Sobis.Core.AssemblyInfoInputs.cache
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\obj\Debug\net7.0\Sobis.Core.AssemblyInfo.cs
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\obj\Debug\net7.0\Sobis.Core.csproj.CoreCompileInputs.cache
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\obj\Debug\net7.0\Sobis.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\obj\Debug\net7.0\refint\Sobis.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\obj\Debug\net7.0\Sobis.Core.pdb
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\obj\Debug\net7.0\Sobis.Core.genruntimeconfig.cache
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\obj\Debug\net7.0\ref\Sobis.Core.dll

@@ -1,0 +1,15 @@
+D:\Chat\Sobis\Sobis.Core\bin\Debug\net8.0\Sobis.Core.deps.json
+D:\Chat\Sobis\Sobis.Core\bin\Debug\net8.0\Sobis.Core.runtimeconfig.json
+D:\Chat\Sobis\Sobis.Core\bin\Debug\net8.0\Sobis.Core.dll
+D:\Chat\Sobis\Sobis.Core\bin\Debug\net8.0\Sobis.Core.pdb
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net8.0\Sobis.Core.csproj.AssemblyReference.cache
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net8.0\Sobis.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net8.0\Sobis.Core.AssemblyInfoInputs.cache
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net8.0\Sobis.Core.AssemblyInfo.cs
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net8.0\Sobis.Core.csproj.CoreCompileInputs.cache
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net8.0\Sobis.Core.sourcelink.json
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net8.0\Sobis.Core.dll
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net8.0\refint\Sobis.Core.dll
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net8.0\Sobis.Core.pdb
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net8.0\Sobis.Core.genruntimeconfig.cache
+D:\Chat\Sobis\Sobis.Core\obj\Debug\net8.0\ref\Sobis.Core.dll

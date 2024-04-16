@@ -1,0 +1,69 @@
+D:\Chat\Sobis\Sobis.Common\bin\Debug\net7.0\Sobis.Common.deps.json
+D:\Chat\Sobis\Sobis.Common\bin\Debug\net7.0\Sobis.Common.dll
+D:\Chat\Sobis\Sobis.Common\bin\Debug\net7.0\Sobis.Common.pdb
+D:\Chat\Sobis\Sobis.Common\bin\Debug\net7.0\Sobis.Core.dll
+D:\Chat\Sobis\Sobis.Common\bin\Debug\net7.0\Sobis.Entities.dll
+D:\Chat\Sobis\Sobis.Common\bin\Debug\net7.0\Sobis.Entities.pdb
+D:\Chat\Sobis\Sobis.Common\bin\Debug\net7.0\Sobis.Core.pdb
+D:\Chat\Sobis\Sobis.Common\obj\Debug\net7.0\Sobis.Common.csproj.AssemblyReference.cache
+D:\Chat\Sobis\Sobis.Common\obj\Debug\net7.0\Sobis.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Chat\Sobis\Sobis.Common\obj\Debug\net7.0\Sobis.Common.AssemblyInfoInputs.cache
+D:\Chat\Sobis\Sobis.Common\obj\Debug\net7.0\Sobis.Common.AssemblyInfo.cs
+D:\Chat\Sobis\Sobis.Common\obj\Debug\net7.0\Sobis.Common.csproj.CoreCompileInputs.cache
+D:\Chat\Sobis\Sobis.Common\obj\Debug\net7.0\Sobis.Common.csproj.CopyComplete
+D:\Chat\Sobis\Sobis.Common\obj\Debug\net7.0\Sobis.Common.dll
+D:\Chat\Sobis\Sobis.Common\obj\Debug\net7.0\refint\Sobis.Common.dll
+D:\Chat\Sobis\Sobis.Common\obj\Debug\net7.0\Sobis.Common.pdb
+D:\Chat\Sobis\Sobis.Common\obj\Debug\net7.0\ref\Sobis.Common.dll
+D:\SobisPersonel\Sobis.Common\bin\Debug\net7.0\Sobis.Common.deps.json
+D:\SobisPersonel\Sobis.Common\bin\Debug\net7.0\Sobis.Common.dll
+D:\SobisPersonel\Sobis.Common\bin\Debug\net7.0\Sobis.Common.pdb
+D:\SobisPersonel\Sobis.Common\bin\Debug\net7.0\Sobis.Core.dll
+D:\SobisPersonel\Sobis.Common\bin\Debug\net7.0\Sobis.Entities.dll
+D:\SobisPersonel\Sobis.Common\bin\Debug\net7.0\Sobis.Entities.pdb
+D:\SobisPersonel\Sobis.Common\bin\Debug\net7.0\Sobis.Core.pdb
+D:\SobisPersonel\Sobis.Common\obj\Debug\net7.0\Sobis.Common.csproj.AssemblyReference.cache
+D:\SobisPersonel\Sobis.Common\obj\Debug\net7.0\Sobis.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\SobisPersonel\Sobis.Common\obj\Debug\net7.0\Sobis.Common.AssemblyInfoInputs.cache
+D:\SobisPersonel\Sobis.Common\obj\Debug\net7.0\Sobis.Common.AssemblyInfo.cs
+D:\SobisPersonel\Sobis.Common\obj\Debug\net7.0\Sobis.Common.csproj.CoreCompileInputs.cache
+D:\SobisPersonel\Sobis.Common\obj\Debug\net7.0\Sobis.Common.sourcelink.json
+D:\SobisPersonel\Sobis.Common\obj\Debug\net7.0\Sobis.Common.csproj.CopyComplete
+D:\SobisPersonel\Sobis.Common\obj\Debug\net7.0\Sobis.Common.dll
+D:\SobisPersonel\Sobis.Common\obj\Debug\net7.0\refint\Sobis.Common.dll
+D:\SobisPersonel\Sobis.Common\obj\Debug\net7.0\Sobis.Common.pdb
+D:\SobisPersonel\Sobis.Common\obj\Debug\net7.0\ref\Sobis.Common.dll
+G:\SobisOrj\Sobis.Common\bin\Debug\net7.0\Sobis.Common.deps.json
+G:\SobisOrj\Sobis.Common\bin\Debug\net7.0\Sobis.Common.dll
+G:\SobisOrj\Sobis.Common\bin\Debug\net7.0\Sobis.Common.pdb
+G:\SobisOrj\Sobis.Common\bin\Debug\net7.0\Sobis.Core.dll
+G:\SobisOrj\Sobis.Common\bin\Debug\net7.0\Sobis.Entities.dll
+G:\SobisOrj\Sobis.Common\bin\Debug\net7.0\Sobis.Entities.pdb
+G:\SobisOrj\Sobis.Common\bin\Debug\net7.0\Sobis.Core.pdb
+G:\SobisOrj\Sobis.Common\obj\Debug\net7.0\Sobis.Common.csproj.AssemblyReference.cache
+G:\SobisOrj\Sobis.Common\obj\Debug\net7.0\Sobis.Common.GeneratedMSBuildEditorConfig.editorconfig
+G:\SobisOrj\Sobis.Common\obj\Debug\net7.0\Sobis.Common.AssemblyInfoInputs.cache
+G:\SobisOrj\Sobis.Common\obj\Debug\net7.0\Sobis.Common.AssemblyInfo.cs
+G:\SobisOrj\Sobis.Common\obj\Debug\net7.0\Sobis.Common.csproj.CoreCompileInputs.cache
+G:\SobisOrj\Sobis.Common\obj\Debug\net7.0\Sobis.Co.92F2DD9C.Up2Date
+G:\SobisOrj\Sobis.Common\obj\Debug\net7.0\Sobis.Common.dll
+G:\SobisOrj\Sobis.Common\obj\Debug\net7.0\refint\Sobis.Common.dll
+G:\SobisOrj\Sobis.Common\obj\Debug\net7.0\Sobis.Common.pdb
+G:\SobisOrj\Sobis.Common\obj\Debug\net7.0\ref\Sobis.Common.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\bin\Debug\net7.0\Sobis.Common.deps.json
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\bin\Debug\net7.0\Sobis.Common.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\bin\Debug\net7.0\Sobis.Common.pdb
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\bin\Debug\net7.0\Sobis.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\bin\Debug\net7.0\Sobis.Entities.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\bin\Debug\net7.0\Sobis.Entities.pdb
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\bin\Debug\net7.0\Sobis.Core.pdb
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\obj\Debug\net7.0\Sobis.Common.csproj.AssemblyReference.cache
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\obj\Debug\net7.0\Sobis.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\obj\Debug\net7.0\Sobis.Common.AssemblyInfoInputs.cache
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\obj\Debug\net7.0\Sobis.Common.AssemblyInfo.cs
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\obj\Debug\net7.0\Sobis.Common.csproj.CoreCompileInputs.cache
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\obj\Debug\net7.0\Sobis.Co.92F2DD9C.Up2Date
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\obj\Debug\net7.0\Sobis.Common.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\obj\Debug\net7.0\refint\Sobis.Common.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\obj\Debug\net7.0\Sobis.Common.pdb
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Common\obj\Debug\net7.0\ref\Sobis.Common.dll

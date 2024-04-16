@@ -1,0 +1,306 @@
+2024-04-05 23:28:54.9247 ERROR Hata Kaynağı : 
+2024-04-05 23:28:54.9247 ERROR 
+2024-04-05 23:28:54.9247 ERROR İstisna Türü: 
+2024-04-05 23:28:54.9247 ERROR Npgsql.PostgresException
+2024-04-05 23:28:54.9247 ERROR İstisna Mesajı: 
+2024-04-05 23:28:54.9247 ERROR 23503: insert or update on table "PRODUCT" violates foreign key constraint "PRODUCT_FK2"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2024-04-05 23:28:54.9247 ERROR İstisna Kaynağı: 
+2024-04-05 23:28:54.9247 ERROR Npgsql
+2024-04-05 23:28:54.9247 ERROR Yığın: 
+2024-04-05 23:28:54.9247 ERROR    at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|234_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+2024-04-05 23:28:54.9247 ERROR İstisna Türü: 
+2024-04-05 23:28:54.9247 ERROR Microsoft.EntityFrameworkCore.DbUpdateException
+2024-04-05 23:28:54.9247 ERROR İstisna Mesajı: An error occurred while saving the entity changes. See the inner exception for details.
+2024-04-05 23:28:54.9247 ERROR Kaynak İzi: 
+2024-04-05 23:28:54.9247 ERROR    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Sobis.Core.DataAccess.Concrete.EntityFrameWork.EfEntityRepositoryBase`2.AddAsync(TEntity entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\DataAccess\Concrete\EntityFrameWork\EfEntityRepositoryBase.cs:line 141
+   at Sobis.BLL.Concrete.Product.ProductManager.AddAsync(ProductAddDto entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.BLL\Concrete\Product\ProductManager.cs:line 46
+   at Sobis.WebAPI.Controllers.Product.ProductsController.Add(ProductAddDto entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\Controllers\Product\ProductsController.cs:line 39
+   at lambda_method547(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Sobis.Core.Middlewares.RequestResponseMiddleWare.Invoke(HttpContext httpContext) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\Middlewares\RequestResponseMiddleWare.cs:line 25
+   at Sobis.Core.Middlewares.ExceptionHandlerMiddleWare.InvokeAsync(HttpContext httpContext) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\Middlewares\ExceptionHandlerMiddleWare.cs:line 23
+2024-04-05 23:28:57.7691 ERROR Hata Kaynağı : 
+2024-04-05 23:28:57.7691 ERROR 
+2024-04-05 23:28:57.7691 ERROR İstisna Türü: 
+2024-04-05 23:28:57.7691 ERROR Npgsql.PostgresException
+2024-04-05 23:28:57.7691 ERROR İstisna Mesajı: 
+2024-04-05 23:28:57.7691 ERROR 23503: insert or update on table "PRODUCT" violates foreign key constraint "PRODUCT_FK2"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2024-04-05 23:28:57.7691 ERROR İstisna Kaynağı: 
+2024-04-05 23:28:57.7691 ERROR Npgsql
+2024-04-05 23:28:57.7691 ERROR Yığın: 
+2024-04-05 23:28:57.7691 ERROR    at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|234_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+2024-04-05 23:28:57.7691 ERROR İstisna Türü: 
+2024-04-05 23:28:57.7691 ERROR Microsoft.EntityFrameworkCore.DbUpdateException
+2024-04-05 23:28:57.7691 ERROR İstisna Mesajı: An error occurred while saving the entity changes. See the inner exception for details.
+2024-04-05 23:28:57.7691 ERROR Kaynak İzi: 
+2024-04-05 23:28:57.8104 ERROR    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Sobis.Core.DataAccess.Concrete.EntityFrameWork.EfEntityRepositoryBase`2.AddAsync(TEntity entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\DataAccess\Concrete\EntityFrameWork\EfEntityRepositoryBase.cs:line 141
+   at Sobis.BLL.Concrete.Product.ProductManager.AddAsync(ProductAddDto entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.BLL\Concrete\Product\ProductManager.cs:line 46
+   at Sobis.WebAPI.Controllers.Product.ProductsController.Add(ProductAddDto entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\Controllers\Product\ProductsController.cs:line 39
+   at lambda_method547(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Sobis.Core.Middlewares.RequestResponseMiddleWare.Invoke(HttpContext httpContext) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\Middlewares\RequestResponseMiddleWare.cs:line 25
+   at Sobis.Core.Middlewares.ExceptionHandlerMiddleWare.InvokeAsync(HttpContext httpContext) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\Middlewares\ExceptionHandlerMiddleWare.cs:line 23
+2024-04-05 23:28:58.1489 ERROR Hata Kaynağı : 
+2024-04-05 23:28:58.1489 ERROR 
+2024-04-05 23:28:58.1489 ERROR İstisna Türü: 
+2024-04-05 23:28:58.1489 ERROR Npgsql.PostgresException
+2024-04-05 23:28:58.1489 ERROR İstisna Mesajı: 
+2024-04-05 23:28:58.1489 ERROR 23503: insert or update on table "PRODUCT" violates foreign key constraint "PRODUCT_FK2"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2024-04-05 23:28:58.1489 ERROR İstisna Kaynağı: 
+2024-04-05 23:28:58.1489 ERROR Npgsql
+2024-04-05 23:28:58.1617 ERROR Yığın: 
+2024-04-05 23:28:58.1617 ERROR    at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|234_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+2024-04-05 23:28:58.1617 ERROR İstisna Türü: 
+2024-04-05 23:28:58.1617 ERROR Microsoft.EntityFrameworkCore.DbUpdateException
+2024-04-05 23:28:58.1617 ERROR İstisna Mesajı: An error occurred while saving the entity changes. See the inner exception for details.
+2024-04-05 23:28:58.1617 ERROR Kaynak İzi: 
+2024-04-05 23:28:58.2133 ERROR    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Sobis.Core.DataAccess.Concrete.EntityFrameWork.EfEntityRepositoryBase`2.AddAsync(TEntity entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\DataAccess\Concrete\EntityFrameWork\EfEntityRepositoryBase.cs:line 141
+   at Sobis.BLL.Concrete.Product.ProductManager.AddAsync(ProductAddDto entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.BLL\Concrete\Product\ProductManager.cs:line 46
+   at Sobis.WebAPI.Controllers.Product.ProductsController.Add(ProductAddDto entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\Controllers\Product\ProductsController.cs:line 39
+   at lambda_method547(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Sobis.Core.Middlewares.RequestResponseMiddleWare.Invoke(HttpContext httpContext) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\Middlewares\RequestResponseMiddleWare.cs:line 25
+   at Sobis.Core.Middlewares.ExceptionHandlerMiddleWare.InvokeAsync(HttpContext httpContext) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\Middlewares\ExceptionHandlerMiddleWare.cs:line 23
+2024-04-05 23:28:58.6068 ERROR Hata Kaynağı : 
+2024-04-05 23:28:58.6068 ERROR 
+2024-04-05 23:28:58.6068 ERROR İstisna Türü: 
+2024-04-05 23:28:58.6068 ERROR Npgsql.PostgresException
+2024-04-05 23:28:58.6068 ERROR İstisna Mesajı: 
+2024-04-05 23:28:58.6068 ERROR 23503: insert or update on table "PRODUCT" violates foreign key constraint "PRODUCT_FK2"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2024-04-05 23:28:58.6068 ERROR İstisna Kaynağı: 
+2024-04-05 23:28:58.6068 ERROR Npgsql
+2024-04-05 23:28:58.6299 ERROR Yığın: 
+2024-04-05 23:28:58.6299 ERROR    at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|234_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+2024-04-05 23:28:58.6299 ERROR İstisna Türü: 
+2024-04-05 23:28:58.6299 ERROR Microsoft.EntityFrameworkCore.DbUpdateException
+2024-04-05 23:28:58.6299 ERROR İstisna Mesajı: An error occurred while saving the entity changes. See the inner exception for details.
+2024-04-05 23:28:58.6299 ERROR Kaynak İzi: 
+2024-04-05 23:28:58.7459 ERROR    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Sobis.Core.DataAccess.Concrete.EntityFrameWork.EfEntityRepositoryBase`2.AddAsync(TEntity entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\DataAccess\Concrete\EntityFrameWork\EfEntityRepositoryBase.cs:line 141
+   at Sobis.BLL.Concrete.Product.ProductManager.AddAsync(ProductAddDto entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.BLL\Concrete\Product\ProductManager.cs:line 46
+   at Sobis.WebAPI.Controllers.Product.ProductsController.Add(ProductAddDto entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\Controllers\Product\ProductsController.cs:line 39
+   at lambda_method547(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Sobis.Core.Middlewares.RequestResponseMiddleWare.Invoke(HttpContext httpContext) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\Middlewares\RequestResponseMiddleWare.cs:line 25
+   at Sobis.Core.Middlewares.ExceptionHandlerMiddleWare.InvokeAsync(HttpContext httpContext) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\Middlewares\ExceptionHandlerMiddleWare.cs:line 23
+2024-04-05 23:28:58.7828 ERROR Hata Kaynağı : 
+2024-04-05 23:28:58.7828 ERROR 
+2024-04-05 23:28:58.7828 ERROR İstisna Türü: 
+2024-04-05 23:28:58.7828 ERROR Npgsql.PostgresException
+2024-04-05 23:28:58.7828 ERROR İstisna Mesajı: 
+2024-04-05 23:28:58.7828 ERROR 23503: insert or update on table "PRODUCT" violates foreign key constraint "PRODUCT_FK2"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2024-04-05 23:28:58.7828 ERROR İstisna Kaynağı: 
+2024-04-05 23:28:58.7828 ERROR Npgsql
+2024-04-05 23:28:58.7828 ERROR Yığın: 
+2024-04-05 23:28:58.7828 ERROR    at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|234_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+2024-04-05 23:28:58.7828 ERROR İstisna Türü: 
+2024-04-05 23:28:58.7828 ERROR Microsoft.EntityFrameworkCore.DbUpdateException
+2024-04-05 23:28:58.7828 ERROR İstisna Mesajı: An error occurred while saving the entity changes. See the inner exception for details.
+2024-04-05 23:28:58.7828 ERROR Kaynak İzi: 
+2024-04-05 23:28:58.8519 ERROR    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Sobis.Core.DataAccess.Concrete.EntityFrameWork.EfEntityRepositoryBase`2.AddAsync(TEntity entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\DataAccess\Concrete\EntityFrameWork\EfEntityRepositoryBase.cs:line 141
+   at Sobis.BLL.Concrete.Product.ProductManager.AddAsync(ProductAddDto entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.BLL\Concrete\Product\ProductManager.cs:line 46
+   at Sobis.WebAPI.Controllers.Product.ProductsController.Add(ProductAddDto entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\Controllers\Product\ProductsController.cs:line 39
+   at lambda_method547(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Sobis.Core.Middlewares.RequestResponseMiddleWare.Invoke(HttpContext httpContext) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\Middlewares\RequestResponseMiddleWare.cs:line 25
+   at Sobis.Core.Middlewares.ExceptionHandlerMiddleWare.InvokeAsync(HttpContext httpContext) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\Middlewares\ExceptionHandlerMiddleWare.cs:line 23
+2024-04-05 23:28:59.0758 ERROR Hata Kaynağı : 
+2024-04-05 23:28:59.0758 ERROR 
+2024-04-05 23:28:59.0758 ERROR İstisna Türü: 
+2024-04-05 23:28:59.0758 ERROR Npgsql.PostgresException
+2024-04-05 23:28:59.0758 ERROR İstisna Mesajı: 
+2024-04-05 23:28:59.0758 ERROR 23503: insert or update on table "PRODUCT" violates foreign key constraint "PRODUCT_FK2"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2024-04-05 23:28:59.0758 ERROR İstisna Kaynağı: 
+2024-04-05 23:28:59.0758 ERROR Npgsql
+2024-04-05 23:28:59.0758 ERROR Yığın: 
+2024-04-05 23:28:59.0758 ERROR    at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|234_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+2024-04-05 23:28:59.0758 ERROR İstisna Türü: 
+2024-04-05 23:28:59.0758 ERROR Microsoft.EntityFrameworkCore.DbUpdateException
+2024-04-05 23:28:59.0758 ERROR İstisna Mesajı: An error occurred while saving the entity changes. See the inner exception for details.
+2024-04-05 23:28:59.0758 ERROR Kaynak İzi: 
+2024-04-05 23:28:59.0779 ERROR    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Sobis.Core.DataAccess.Concrete.EntityFrameWork.EfEntityRepositoryBase`2.AddAsync(TEntity entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\DataAccess\Concrete\EntityFrameWork\EfEntityRepositoryBase.cs:line 141
+   at Sobis.BLL.Concrete.Product.ProductManager.AddAsync(ProductAddDto entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.BLL\Concrete\Product\ProductManager.cs:line 46
+   at Sobis.WebAPI.Controllers.Product.ProductsController.Add(ProductAddDto entity) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\Controllers\Product\ProductsController.cs:line 39
+   at lambda_method547(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Sobis.Core.Middlewares.RequestResponseMiddleWare.Invoke(HttpContext httpContext) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\Middlewares\RequestResponseMiddleWare.cs:line 25
+   at Sobis.Core.Middlewares.ExceptionHandlerMiddleWare.InvokeAsync(HttpContext httpContext) in E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.Core\Middlewares\ExceptionHandlerMiddleWare.cs:line 23

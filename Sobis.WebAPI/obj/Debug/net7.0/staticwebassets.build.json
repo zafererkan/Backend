@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "iXAOAavUXiigeEB1FXvl0Lhb07TuYQPIsfLw9A+DIs4=",
+  "Source": "Sobis.WebAPI",
+  "BasePath": "_content/Sobis.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,81 @@
+﻿@using System.Reflection
+@using DxWebUI.Pages
+<div class="sidebar @StateCssClass">
+    @* <DxTreeView SizeMode=SizeMode.Small AllowSelectNodes="true" CssClass="app-sidebar">
+    <Nodes>
+    <DxTreeViewNode NavigateUrl="./" Text="Overview" CssClass="@rootNodeCssClass"></DxTreeViewNode>
+    <DxTreeViewNode NavigateUrl="grid" Text="Grid" CssClass="@rootNodeCssClass"></DxTreeViewNode>
+    <DxTreeViewNode NavigateUrl="Personnel" Text="Personnel Info" CssClass="@rootNodeCssClass"></DxTreeViewNode>
+    </Nodes>
+    </DxTreeView> *@
+
+    <DxTreeView @ref="@SampleTreeView" AllowSelectNodes="true">
+        <Nodes>
+            <DxTreeViewNode Expanded=true Text="Management">
+                <Nodes>
+                    <DxTreeViewNode Name="Definations.SyndicateDefinationComponent" Click=ShowPanel Text="Syndicate Definitions" />
+                </Nodes>
+            </DxTreeViewNode>
+            <DxTreeViewNode Expanded=true Text="Personel">
+                <Nodes>
+                    <DxTreeViewNode NavigateUrl="Personel" Text="Personel Info" />
+                    <DxTreeViewNode Text="Grid" NavigateUrl="grid" />
+                </Nodes>
+            </DxTreeViewNode>
+        </Nodes>
+    </DxTreeView>
+    <DxLoadingPanel Visible=@PanelVisible></DxLoadingPanel>
+</div>
+<DxWindow @ref=windowRef
+          AllowResize="false"
+          ShowCloseButton="true"
+          HeaderText="@Content"
+          MinWidth="800"
+          MinHeight="600"
+          Closed="WindowClosed">
+    <BodyContentTemplate>
+        <DynamicComponent Type="@selectedType"></DynamicComponent>
+    </BodyContentTemplate>
+    <FooterContentTemplate>
+        <DxButton CssClass="popup-button my-1 ms-2" RenderStyle="ButtonRenderStyle.Primary" Text="OK" Click="@context.CloseCallback" />
+        <DxButton CssClass="popup-button my-1 ms-2" RenderStyle="ButtonRenderStyle.Secondary" Text="Cancel" Click="@context.CloseCallback" />
+    </FooterContentTemplate>
+</DxWindow>
+
+@code {
+    DxWindow windowRef;
+    string Content = "Content";
+    bool IsWindowVisible { get; set; } = false;
+    async Task WindowClosed(WindowClosedEventArgs args)
+    {
+        //await GetCompanyList(new CompanyDto { Status = "E" });
+    }
+    //RenderFragment ChildContent { get; set; }
+    //Type[] types => Assembly.GetExecutingAssembly().GetTypes().Where(x => x.BaseType == typeof(ComponentBase)).ToArray();
+    Type? selectedType;
+    [Parameter] public string? StateCssClass { get; set; }
+
+    DxTreeView SampleTreeView;
+
+    bool PanelVisible = false;
+
+    // void SelectNode(string text)
+    // {
+    //     SampleTreeView.SelectNode((n) => n.Text == text);
+    //     SampleTreeView.ExpandToNode((n) => n.Text == text);
+    // }
+    async Task ShowPanel(TreeViewNodeClickEventArgs args)
+    {
+        selectedType = args.NodeInfo.Name?.Length > 0 ?
+            Type.GetType($"DxWebUI.Pages.{args.NodeInfo.Name}") : null;
+        Content = args.NodeInfo.Text;
+        await windowRef.ShowAsync();
+
+    }
+    RenderFragment CreateDynamicComponent() => builder =>
+    {
+        builder.OpenComponent(0, typeof(NullComponent));
+        builder.AddAttribute(1, "Title", "Some title");
+        builder.CloseComponent();
+    };
+}

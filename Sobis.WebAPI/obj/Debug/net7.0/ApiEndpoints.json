@@ -1,0 +1,652 @@
+[
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.AppUser.AppUsersController",
+    "Method": "Add",
+    "RelativePath": "api/AppUsers/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Entities.Dto.AppUser.AppUserAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.AppUser.AppUsersController",
+    "Method": "Delete",
+    "RelativePath": "api/AppUsers/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Common.Dto.DeleteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.AppUser.AppUsersController",
+    "Method": "Get",
+    "RelativePath": "api/AppUsers/Get",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Common.Dto.GetDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.AppUser.AppUsersController",
+    "Method": "GetList",
+    "RelativePath": "api/AppUsers/GetList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Entities.Dto.AppUser.AppUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.AppUser.AppUsersController",
+    "Method": "Update",
+    "RelativePath": "api/AppUsers/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Entities.Dto.AppUser.AppUserUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.AppUser.AppUsersController",
+    "Method": "UpdateDefaultCompany",
+    "RelativePath": "api/AppUsers/UpdateDefaultCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AppUserUpdateDefaultCompanyDto",
+        "Type": "Sobis.Entities.Dto.AppUser.AppUserUpdateDefaultCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.AppUser.AuthController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/Auth/LoginAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userForLoginDto",
+        "Type": "Sobis.Entities.Dto.AppUser.AppUserLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IDataResult\u00601[[Sobis.Entities.Concrete.ViewModel.UserAccessToken, Sobis.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.CategoryController",
+    "Method": "Add",
+    "RelativePath": "api/Category/AddAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Entities.Dto.Category.CategoryAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.CategoryController",
+    "Method": "Delete",
+    "RelativePath": "api/Category/DeleteAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Common.Dto.DeleteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.CategoryController",
+    "Method": "Get",
+    "RelativePath": "api/Category/GetAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Common.Dto.GetDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.CategoryController",
+    "Method": "GetList",
+    "RelativePath": "api/Category/GetListAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Entities.Dto.Category.CategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.CategoryController",
+    "Method": "GetListByIdAsync",
+    "RelativePath": "api/Category/GetListByIdAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Common.Dto.GetDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.CategoryController",
+    "Method": "Update",
+    "RelativePath": "api/Category/UpdateAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Entities.Dto.Category.CategoryUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.Parameter.ParameterDetailController",
+    "Method": "Add",
+    "RelativePath": "api/ParameterDetail/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Entities.Dto.Parameter.ParameterDetailAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.Parameter.ParameterDetailController",
+    "Method": "Delete",
+    "RelativePath": "api/ParameterDetail/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Common.Dto.DeleteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.Parameter.ParameterDetailController",
+    "Method": "Get",
+    "RelativePath": "api/ParameterDetail/Get",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Common.Dto.GetDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.Parameter.ParameterDetailController",
+    "Method": "GetList",
+    "RelativePath": "api/ParameterDetail/GetList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Entities.Dto.Parameter.ParameterDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.Parameter.ParameterDetailController",
+    "Method": "GetListByIdAsync",
+    "RelativePath": "api/ParameterDetail/GetListByIdAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Entities.Dto.Parameter.ParameterDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.Parameter.ParameterDetailController",
+    "Method": "Update",
+    "RelativePath": "api/ParameterDetail/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Entities.Dto.Parameter.ParameterDetailAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.Product.ProductsController",
+    "Method": "Add",
+    "RelativePath": "api/Products/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Entities.Dto.Product.ProductAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.Product.ProductsController",
+    "Method": "Delete",
+    "RelativePath": "api/Products/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Common.Dto.DeleteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.Product.ProductsController",
+    "Method": "Get",
+    "RelativePath": "api/Products/Get",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Common.Dto.GetDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.Product.ProductsController",
+    "Method": "GetList",
+    "RelativePath": "api/Products/GetList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Entities.Dto.Product.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.Product.ProductsController",
+    "Method": "GetListByIdAsync",
+    "RelativePath": "api/Products/GetListByIdAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Common.Dto.GetDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sobis.WebAPI.Controllers.Product.ProductsController",
+    "Method": "Update",
+    "RelativePath": "api/Products/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Sobis.Entities.Dto.Product.ProductUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sobis.Core.Utilities.Results.Abstract.IResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

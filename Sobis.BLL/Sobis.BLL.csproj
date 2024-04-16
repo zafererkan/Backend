@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Sobis.Common\Sobis.Common.csproj" />
+		<ProjectReference Include="..\Sobis.Core\Sobis.Core.csproj" />
+		<ProjectReference Include="..\Sobis.DAL\Sobis.DAL.csproj" />
+		<ProjectReference Include="..\Sobis.Entities\Sobis.Entities.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="LinqKit" Version="1.2.5" />
+		<PackageReference Include="Microsoft.AspNetCore.Authorization" Version="7.0.13" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+</Project>

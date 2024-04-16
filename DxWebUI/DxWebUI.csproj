@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\Images\Check\Check.ico" />
+    <Content Remove="wwwroot\Images\Check\Check_16x16.png" />
+    <Content Remove="wwwroot\Images\Check\Check_24x24.png" />
+    <Content Remove="wwwroot\Images\Check\Check_256x256.png" />
+    <Content Remove="wwwroot\Images\Check\Check_32x32.png" />
+    <Content Remove="wwwroot\Images\Check\Check_48x48.png" />
+    <Content Remove="wwwroot\Images\Check\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\Images\Check\Check.ico" />
+    <None Include="wwwroot\images\E.png" />
+    <None Include="wwwroot\Images\Check\Check_24x24.png" />
+    <None Include="wwwroot\Images\Check\Check_256x256.png" />
+    <None Include="wwwroot\Images\Check\Check_32x32.png" />
+    <None Include="wwwroot\Images\Check\Check_48x48.png" />
+    <None Include="wwwroot\Images\Check\Thumbs.db" />
+    <None Include="wwwroot\images\Remove\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Blazor" Version="23.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.0" PrivateAssets="all" />
+    <PackageReference Include="Radzen.Blazor" Version="4.19.0" />
+    <PackageReference Include="System.Net.Http.Json" Version="7.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sobis.BLL\Sobis.BLL.csproj" />
+    <ProjectReference Include="..\Sobis.Common\Sobis.Common.csproj" />
+    <ProjectReference Include="..\Sobis.Core\Sobis.Core.csproj" />
+    <ProjectReference Include="..\Sobis.Entities\Sobis.Entities.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+    <Folder Include="Pages\Definations\" />
+  </ItemGroup>
+</Project>

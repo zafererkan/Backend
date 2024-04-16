@@ -1,0 +1,16 @@
+D:\Chat\Sobis\Sobis.Entities\bin\Debug\net8.0\Sobis.Entities.deps.json
+D:\Chat\Sobis\Sobis.Entities\bin\Debug\net8.0\Sobis.Entities.dll
+D:\Chat\Sobis\Sobis.Entities\bin\Debug\net8.0\Sobis.Entities.pdb
+D:\Chat\Sobis\Sobis.Entities\bin\Debug\net8.0\Sobis.Core.dll
+D:\Chat\Sobis\Sobis.Entities\bin\Debug\net8.0\Sobis.Core.pdb
+D:\Chat\Sobis\Sobis.Entities\obj\Debug\net8.0\Sobis.Entities.csproj.AssemblyReference.cache
+D:\Chat\Sobis\Sobis.Entities\obj\Debug\net8.0\Sobis.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Chat\Sobis\Sobis.Entities\obj\Debug\net8.0\Sobis.Entities.AssemblyInfoInputs.cache
+D:\Chat\Sobis\Sobis.Entities\obj\Debug\net8.0\Sobis.Entities.AssemblyInfo.cs
+D:\Chat\Sobis\Sobis.Entities\obj\Debug\net8.0\Sobis.Entities.csproj.CoreCompileInputs.cache
+D:\Chat\Sobis\Sobis.Entities\obj\Debug\net8.0\Sobis.Entities.sourcelink.json
+D:\Chat\Sobis\Sobis.Entities\obj\Debug\net8.0\Sobis.Entities.csproj.CopyComplete
+D:\Chat\Sobis\Sobis.Entities\obj\Debug\net8.0\Sobis.Entities.dll
+D:\Chat\Sobis\Sobis.Entities\obj\Debug\net8.0\refint\Sobis.Entities.dll
+D:\Chat\Sobis\Sobis.Entities\obj\Debug\net8.0\Sobis.Entities.pdb
+D:\Chat\Sobis\Sobis.Entities\obj\Debug\net8.0\ref\Sobis.Entities.dll

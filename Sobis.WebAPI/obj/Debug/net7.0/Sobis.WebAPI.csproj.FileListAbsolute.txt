@@ -1,0 +1,360 @@
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.csproj.AssemblyReference.cache
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.AssemblyInfoInputs.cache
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.AssemblyInfo.cs
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.csproj.CoreCompileInputs.cache
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.dll
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\refint\Sobis.WebAPI.dll
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.pdb
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\appsettings.Development.json
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\appsettings.json
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.WebAPI.exe
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Nlog.config
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.WebAPI.deps.json
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.WebAPI.runtimeconfig.json
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.WebAPI.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.WebAPI.pdb
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Autofac.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Autofac.Extras.DynamicProxy.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\AutoMapper.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Azure.Core.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Azure.Security.KeyVault.Certificates.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Azure.Security.KeyVault.Secrets.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Castle.Core.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.XtraCharts.v23.1.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Charts.v23.1.Core.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.CodeParser.v23.1.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Data.v23.1.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.DataAccess.v23.1.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.DataVisualization.v23.1.Core.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Drawing.v23.1.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.XtraGauges.v23.1.Core.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Office.v23.1.Core.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Pdf.v23.1.Core.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Pdf.v23.1.Drawing.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.PivotGrid.v23.1.Core.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Printing.v23.1.Core.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.XtraReports.v23.1.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.RichEdit.v23.1.Core.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.RichEdit.v23.1.Export.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Sparkline.v23.1.Core.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Xpo.v23.1.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\EntityFramework.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\FluentValidation.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Humanizer.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\LinqKit.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\LinqKit.Core.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.DataProtection.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Abstractions.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Web.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Web.Certificate.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Web.Certificateless.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Web.Diagnostics.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Web.TokenAcquisition.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Web.TokenCache.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.LoggingExtensions.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Validators.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\NLog.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Npgsql.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Oracle.EntityFrameworkCore.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Oracle.ManagedDataAccess.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.Data.SqlClient.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.DirectoryServices.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.DirectoryServices.Protocols.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.Memory.Data.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.Private.ServiceModel.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.Xml.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.ServiceModel.Http.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.ServiceModel.NetTcp.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.ServiceModel.Primitives.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.ServiceModel.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.ServiceModel.Security.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\cs\System.Private.ServiceModel.resources.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\de\System.Private.ServiceModel.resources.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\es\System.Private.ServiceModel.resources.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\fr\System.Private.ServiceModel.resources.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\it\System.Private.ServiceModel.resources.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\ja\System.Private.ServiceModel.resources.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\ko\System.Private.ServiceModel.resources.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\pl\System.Private.ServiceModel.resources.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\pt-BR\System.Private.ServiceModel.resources.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\ru\System.Private.ServiceModel.resources.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\tr\System.Private.ServiceModel.resources.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\zh-Hans\System.Private.ServiceModel.resources.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\zh-Hant\System.Private.ServiceModel.resources.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.DirectoryServices.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\linux\lib\net6.0\System.DirectoryServices.Protocols.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\osx\lib\net6.0\System.DirectoryServices.Protocols.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.DirectoryServices.Protocols.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.BLL.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.Common.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.Core.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.DAL.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.Entities.dll
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.BLL.pdb
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.Common.pdb
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.Core.pdb
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.DAL.pdb
+G:\SobisOrj\Sobis.WebAPI\bin\Debug\net7.0\Sobis.Entities.pdb
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.Sobis.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.Sobis.WebAPI.props
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sobis.WebAPI.props
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sobis.WebAPI.props
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\staticwebassets.pack.json
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\scopedcss\bundle\Sobis.WebAPI.styles.css
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\Sobis.We.E950E8D7.Up2Date
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.genruntimeconfig.cache
+G:\SobisOrj\Sobis.WebAPI\obj\Debug\net7.0\ref\Sobis.WebAPI.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\appsettings.Development.json
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\appsettings.json
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.WebAPI.exe
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Nlog.config
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.WebAPI.deps.json
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.WebAPI.runtimeconfig.json
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.WebAPI.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.WebAPI.pdb
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Autofac.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Autofac.Extras.DynamicProxy.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\AutoMapper.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Azure.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Azure.Security.KeyVault.Certificates.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Azure.Security.KeyVault.Secrets.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Castle.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.XtraCharts.v23.1.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Charts.v23.1.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.CodeParser.v23.1.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Data.v23.1.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.DataAccess.v23.1.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.DataVisualization.v23.1.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Drawing.v23.1.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.XtraGauges.v23.1.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Office.v23.1.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Pdf.v23.1.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Pdf.v23.1.Drawing.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.PivotGrid.v23.1.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Printing.v23.1.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.XtraReports.v23.1.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.RichEdit.v23.1.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.RichEdit.v23.1.Export.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Sparkline.v23.1.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\DevExpress.Xpo.v23.1.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\EntityFramework.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\FluentValidation.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Humanizer.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\LinqKit.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\LinqKit.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.DataProtection.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Abstractions.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Web.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Web.Certificate.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Web.Certificateless.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Web.Diagnostics.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Web.TokenAcquisition.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Web.TokenCache.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.LoggingExtensions.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Validators.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\NLog.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Npgsql.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Oracle.EntityFrameworkCore.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Oracle.ManagedDataAccess.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.Data.SqlClient.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.DirectoryServices.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.DirectoryServices.Protocols.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.Memory.Data.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.Private.ServiceModel.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.Xml.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.ServiceModel.Http.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.ServiceModel.NetTcp.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.ServiceModel.Primitives.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.ServiceModel.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.ServiceModel.Security.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\cs\System.Private.ServiceModel.resources.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\de\System.Private.ServiceModel.resources.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\es\System.Private.ServiceModel.resources.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\fr\System.Private.ServiceModel.resources.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\it\System.Private.ServiceModel.resources.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\ja\System.Private.ServiceModel.resources.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\ko\System.Private.ServiceModel.resources.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\pl\System.Private.ServiceModel.resources.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\pt-BR\System.Private.ServiceModel.resources.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\ru\System.Private.ServiceModel.resources.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\tr\System.Private.ServiceModel.resources.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\zh-Hans\System.Private.ServiceModel.resources.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\zh-Hant\System.Private.ServiceModel.resources.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.DirectoryServices.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\linux\lib\net6.0\System.DirectoryServices.Protocols.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\osx\lib\net6.0\System.DirectoryServices.Protocols.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.DirectoryServices.Protocols.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.BLL.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.Common.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.Core.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.DAL.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.Entities.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.BLL.pdb
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.Common.pdb
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.Core.pdb
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.DAL.pdb
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\bin\Debug\net7.0\Sobis.Entities.pdb
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.csproj.AssemblyReference.cache
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.AssemblyInfoInputs.cache
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.AssemblyInfo.cs
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.csproj.CoreCompileInputs.cache
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.Sobis.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.Sobis.WebAPI.props
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sobis.WebAPI.props
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sobis.WebAPI.props
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\staticwebassets.pack.json
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\scopedcss\bundle\Sobis.WebAPI.styles.css
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\Sobis.We.E950E8D7.Up2Date
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\refint\Sobis.WebAPI.dll
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.pdb
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\Sobis.WebAPI.genruntimeconfig.cache
+E:\Tekliftek\Backend\Sobis Tekliftek\Sobis.WebAPI\obj\Debug\net7.0\ref\Sobis.WebAPI.dll
